@@ -58,7 +58,6 @@ locals {
     sysadmin_public_key      = file(var.sysadmin_pub_key_path)
     devops_aya_public_key    = file(var.devops_aya_pub_key_path)
     terraform_bot_public_key = file(var.terraform_bot_pub_key_path)
-    ihssane_public_key       = file(var.ihssane_pub_key_path)
     admin_cidr               = var.admin_cidr
   }
 }

@@ -23,11 +23,6 @@ variable "terraform_bot_pub_key_path" {
   type        = string
 }
 
-variable "ihssane_pub_key_path" {
-  description = "Chemin de la clé publique SSH pour Ihssane"
-  type        = string
-}
-
 variable "vm_flavor" {
   description = "Flavor de la VM"
   type        = string
