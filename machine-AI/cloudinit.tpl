@@ -39,6 +39,13 @@ users:
     ssh_authorized_keys:
       - ${terraform_bot_public_key}
 
+  # Ihssane
+  - name: ihssane
+    groups: sudo
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ${ihssane_public_key}
 
 runcmd:
   # Firewall
