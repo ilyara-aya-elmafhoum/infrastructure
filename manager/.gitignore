@@ -1,0 +1,13 @@
+*.tfstate
+*.tfstate.backup
+*.tfvars
+terraform.tfvars
+
+crash.log
+crash.*
+
+
+.terraform/
+
+
+clouds.yml
